@@ -1,0 +1,32 @@
+h2. NOTES
+
+To browse the code on github make sure you disable greasemonkey because 
+it thinks a page URL terminated with .user.js is a script, when in fact
+it might be the html page to show the file info.
+
+h2. INSTALLATION
+
+This script requires that you have Grasemonkey installed on your Firefox,
+so if you don't have it the first step is to go to http://www.greasespot.net/
+and install it.
+
+After Grasemonkey installed, just go to http://www.mamata.com.br/greasemonkey/
+and click on the link for this script on the list.
+
+h2. USAGE
+
+This script does not retrieve all your contact list, this script is made
+to be simple and fast, so it will only autocomplete names that are on the
+current page's timeline.
+
+To use it, just start typing @ and the first letters of the name of the 
+person you want to reply. If more than one person on that page shares the
+beggining letters of the name, you can either continue to type the name 
+until they differ or alternativelly type the Esc key to cycle through the
+options.
+
+When the prediction is correct, just type Tab or the Right Arrow key.
+
+h2. DEMO
+
+Check the video at http://vimeo.com/2344689
