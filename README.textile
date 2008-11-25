@@ -12,7 +12,8 @@ so if you don't have it the first step is to go to
 
 After Grasemonkey installed, just go to 
 "http://www.mamata.com.br/greasemonkey/":http://www.mamata.com.br/greasemonkey/
-and click on the link for this script on the list.
+or "http://userscripts.org/scripts/show/37530":http://userscripts.org/scripts/show/37530
+and click on the link to install it.
 
 h2. USAGE
 
