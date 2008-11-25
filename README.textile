@@ -7,10 +7,11 @@ it might be the html page to show the file info.
 h2. INSTALLATION
 
 This script requires that you have Grasemonkey installed on your Firefox,
-so if you don't have it the first step is to go to http://www.greasespot.net/
-and install it.
+so if you don't have it the first step is to go to 
+"http://www.greasespot.net/":http://www.greasespot.net/ and install it.
 
-After Grasemonkey installed, just go to http://www.mamata.com.br/greasemonkey/
+After Grasemonkey installed, just go to 
+"http://www.mamata.com.br/greasemonkey/":http://www.mamata.com.br/greasemonkey/
 and click on the link for this script on the list.
 
 h2. USAGE
@@ -29,4 +30,4 @@ When the prediction is correct, just type Tab or the Right Arrow key.
 
 h2. DEMO
 
-Check the video at http://vimeo.com/2344689
+Check the video at "http://vimeo.com/2344689":http://vimeo.com/2344689
