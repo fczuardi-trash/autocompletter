@@ -12,17 +12,27 @@
         
         function createAutoCompleteTable(){
             var table = [];
-            var tweets = document.getElementById('timeline_body').getElementsByTagName('TR');
+            var author_links = [];
             var authors = [];
-            for (var i in tweets){
-                var tweetClassParts = tweets[i].className.split(' ');
-                var tweetAuthor = tweetClassParts[tweetClassParts.length-1];
+            var timeline_tweets = document.getElementById('timeline_body').getElementsByTagName('TR');
+            var friends_links = document.getElementById('friends').getElementsByTagName('A');
+            //<a> links to users in the timeline
+            for (var i in timeline_tweets){
+                author_links.push(timeline_tweets[i].getElementsByTagName('A')[0]);
+            }
+            //<a> links to users in the friends grid
+            for (var i in friends_links){
+                author_links.push(friends_links[i]);
+            }
+            for (var i in author_links){
+                var tweetAuthorUrl = author_links[i].getAttribute('href'); 
+                var tweetAuthor = tweetAuthorUrl.substring('http://twitter.com/'.length, tweetAuthorUrl.length);
                 if (!authors[tweetAuthor]) {
                     authors[tweetAuthor] = true;
                 } else {
                     continue;
                 }
-                for (var j=0; j<tweetAuthor.length; j++){
+                for (var j=0; j <= tweetAuthor.length; j++){
                     var slug = tweetAuthor.substring(0,j).toLowerCase();
                     if (!table[slug]) table[slug] = [];
                     table[slug].push(tweetAuthor);
