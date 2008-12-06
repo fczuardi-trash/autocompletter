@@ -19,13 +19,13 @@ h2. USAGE
 
 This script does not retrieve all your contact list, this script is made
 to be simple and fast, so it will only autocomplete names that are on the
-current page's timeline.
+current page's timeline or in the visible friends grid ("Following" 
+section at the sidebar).
 
 To use it, just start typing @ and the first letters of the name of the 
-person you want to reply. If more than one person on that page shares the
-beggining letters of the name, you can either continue to type the name 
-until they differ or alternativelly type the Esc key to cycle through the
-options.
+person you want to reply. If more than one person shares the beggining 
+letters of the name, you can either continue to type the name until they
+differ or alternativelly type the Esc key to cycle through the options.
 
 When the prediction is correct, just type Tab or the Right Arrow key.
 
