@@ -14,8 +14,8 @@
             var table = [];
             var author_links = [];
             var authors = [];
-            var timeline_tweets = document.getElementById('timeline_body').getElementsByTagName('TR');
-            var friends_links = document.getElementById('friends').getElementsByTagName('A');
+            var timeline_tweets = document.getElementById('timeline').getElementsByTagName('LI');
+            var friends_links = document.getElementById('following_list').getElementsByTagName('A');
             //<a> links to users in the timeline
             for (var i in timeline_tweets){
                 author_links.push(timeline_tweets[i].getElementsByTagName('A')[0]);
